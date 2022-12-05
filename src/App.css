@@ -1,3 +1,9 @@
+body {
+  border: 15px solid #61dafb;
+}
+
+
+
 .App {
   text-align: center;
 }
@@ -35,4 +41,32 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.form {
+  min-height: auto;
+  height: 20vh;
+  margin-bottom: 15vh;
+}
+
+.form h2 {
+  font-size: 35px;
+}
+
+.form li {
+  list-style-type: lower-alpha;
+  padding-bottom: 5px;
+}
+
+.btn-question {
+  margin: 5px;
+  padding: 5px 20px;
+}
+
+
+header h1 {
+  text-shadow: 4px 2px 0 #61dafb,
+              6px 4px 0 #afffff;
+
+  font-size: 56px;
 }
